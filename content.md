@@ -10,43 +10,43 @@ class: center, middle, inverse
 .left-column[
 ## Louis Beltramo
 ### - SRC Montbéliard / Gobelins Annecy
-### - Freelance / Bocalènco / ...
-### - développeur mobile & web
-### - louis@beltramo.me
+### - Freelance / Bocalènco / Oz
+### - Développeur mobile & web
 ]
 
 .right-column[
 .pull-left[
 ### Un soupçon de desktop
-- C/C++
+- C
+- Java
 - AS3/Air
-- Haxe
+- Haxe/NME/OpenFL
 - NW.js
 
 ### Un peu de back
 - PHP/Wordpress
 - Ruby/Rails
-- GNU Linux/Docker
+- Node.js/Hapi
 
 ### Du mobile
 - AS3/Air
-- Haxe
+- Haxe/NME/OpenFL
 - Java/Android
 - JS/Cordova
 ]
 
 ### Quelques plateformes
-- GNU/Linux
-- Windows
 - Android
-- iOS
-- Blackberry
-- Tizen (IVI)
-- Firefox OS
-- Raspberry Pi
 - Arduino
+- Blackberry
+- Firefox OS
+- GNU/Linux
+- iOS
 - Matchstick
+- Raspberry Pi
+- Tizen (IVI)
 - Web
+- Windows
 ]
 
 ---
@@ -64,6 +64,91 @@ class: center, middle, inverse
 ]
 
 ---
+.left-column[
+## Modalités
+### - Rendu
+### - Planning
+]
+
+.right-column[
+# Lundi 19 janvier
+## matin
+- Un peu de théorie
+- Prise en main d'Android Studio
+- Devices et émulateurs
+- Hello World
+
+## après-midi
+- Architecture et composants Android
+  - Manifest
+  - Activity et Fragments
+  - Layouts
+  - Ressources
+  - Adapter et ListView
+]
+
+---
+.left-column[
+## Modalités
+### - Rendu
+### - Planning
+]
+
+.right-column[
+# Mardi 20 janvier
+## matin
+- JSON REST API FTW
+- Threads
+]
+
+---
+.left-column[
+## Modalités
+### - Rendu
+### - Planning
+]
+
+.right-column[
+# Vendredi 23 janvier
+## après-midi
+- Cycle de vie des Activities
+- Explicit Intents
+- Implicit Intent
+- Easy Share
+]
+
+---
+.left-column[
+## Modalités
+### - Rendu
+### - Planning
+]
+
+.right-column[
+# Lundi 2 février
+## matin
+- Content provider
+
+## après-midi
+- Shared Preferences
+- Sensors
+]
+
+---
+.left-column[
+## Modalités
+### - Rendu
+### - Planning
+]
+
+.right-column[
+# Mardi 3 février
+## matin
+- Medias
+- ...
+]
+
+---
 class: center, middle, inverse
 # Android
 
@@ -77,9 +162,12 @@ class: center, middle, inverse
 ## Fondé en Octobre 2003
 - concurrencer Symbian (!) et Windows Mobile (!)
 - le but : "smarter mobile devices that are more aware of its owner's location and preferences"
+<br />
+<br />
+.pull-left[![img](./images/juggle.gif)]
 ]
 
-.footnote[Pour info en 2002 on vend encore des Nokia 3310]
+.footnote[Pour info en 2002 on vendait encore des Nokia 3310]
 
 ---
 .left-column[
@@ -160,7 +248,33 @@ https://en.wikipedia.org/wiki/Android_version_history
 ### - AOSP
 ]
 
-.right-column[]
+.right-column[
+# Android Open Source Project
+- Couche propriétaire Google
+- De nombreuses applis AOSP sont abandonnées
+
+## Plusieurs Android
+- Cyanogen
+- Replicant
+
+## Des morceaux d'Android ailleurs
+- Firefox OS
+- Jolla Sailfish OS
+]
+
+---
+class: center, middle, inverse
+# Android 5
+
+
+---
+.left-column[
+## Android 5
+]
+
+.center[
+![img](./images/juggle_lollipop.gif)
+]
 
 ---
 .left-column[
@@ -175,8 +289,8 @@ https://en.wikipedia.org/wiki/Android_version_history
 ]
 
 .footnote[[->Intro material design](http://www.google.com/design/spec/material-design/introduction.html)]
----
 
+---
 .left-column[
 ## Android 5
 ### - Material Design
@@ -196,7 +310,6 @@ https://en.wikipedia.org/wiki/Android_version_history
 __ART__ Ahead-of-time (AOT) compilation
 
 ---
-
 .left-column[
 ## Android 5
 ### - Material Design
@@ -209,8 +322,8 @@ __ART__ Ahead-of-time (AOT) compilation
 ## Mobile & Wear
 - Applis "déportés"
 ]
----
 
+---
 .left-column[
 ## Android 5
 ### - Material Design
@@ -220,8 +333,8 @@ __ART__ Ahead-of-time (AOT) compilation
 ]
 
 .pull-left[![full_img](https://developer.android.com/tv/images/atv-framed.png)]
----
 
+---
 .left-column[
 ## Android 5
 ### - Material Design
@@ -232,8 +345,8 @@ __ART__ Ahead-of-time (AOT) compilation
 ]
 
 .pull-left[![full_img](http://www.android.com/new/images/auto/slide-1.jpg)]
----
 
+---
 .left-column[
 ## Android 5
 ### - Material Design
@@ -245,12 +358,12 @@ __ART__ Ahead-of-time (AOT) compilation
 ]
 
 .pull-left[![full_img](http://www.android.com/new/images/auto/slide-4.jpg)]
----
 
+---
 class: center, middle, inverse
 # Android Studio
----
 
+---
 .left-column[
 ## Android Studio
 ### - ADT ?
@@ -268,8 +381,8 @@ class: center, middle, inverse
 - IDE officiel pour Android
 ]
 .right[![Right-aligned image](https://1.bp.blogspot.com/-u5dfSsMOMC0/UZO_5DC_W9I/AAAAAAAACM8/YCMn15HPzpE/s1600/Studio_table.png)]
----
 
+---
 .left-column[
 ## Android Studio
 ### - ADT ?
@@ -307,9 +420,7 @@ def commitHg(message) {
 ???
 
 
-
 ---
-
 .left-column[
 ## Android Studio
 ### - ADT ?
@@ -344,12 +455,12 @@ repositories {
 - PHP : Composer
 - JS : NPM / bower
 - Ruby : Gem / bundler
----
 
+---
 class: center, middle, inverse
 # Git
----
 
+---
 .left-column[
 ## Git
 ### - Github.com
@@ -364,7 +475,5 @@ class: center, middle, inverse
 - http://www.sourcetreeapp.com/
 - https://github.com/FredrikNoren/ungit
 ]
----
 
-class: center, middle, inverse
-# [The Echo Nest](http://the.echonest.com/)
+---
