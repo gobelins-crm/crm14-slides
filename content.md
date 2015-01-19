@@ -81,8 +81,9 @@ class: center, middle, inverse
 ## après-midi
 - Architecture et composants Android
   - Manifest
-  - Activity et Fragments
+  - Activity et explicit Intents
   - Layouts
+  - Fragments
   - Ressources
   - Adapter et ListView
 ]
@@ -112,7 +113,6 @@ class: center, middle, inverse
 # Vendredi 23 janvier
 ## après-midi
 - Cycle de vie des Activities
-- Explicit Intents
 - Implicit Intent
 - Easy Share
 ]
