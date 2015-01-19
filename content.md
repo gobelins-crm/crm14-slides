@@ -86,6 +86,7 @@ class: center, middle, inverse
   - Fragments
   - Ressources
   - Adapter et ListView
+  - Shared Preferences
 ]
 
 ---
@@ -130,7 +131,6 @@ class: center, middle, inverse
 - Content provider
 
 ## après-midi
-- Shared Preferences
 - Sensors
 ]
 
