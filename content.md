@@ -73,6 +73,36 @@ class: center, middle, inverse
 ]
 ---
 
+.left-column[
+## Modalités
+### - Rendu
+### - Livrables
+### - Barême
+### - Planning
+]
+
+.right-column[
+## Lundi
+- Android 6.0 et Android Studio 1.4
+- Patterns Android
+  - Manifest, Activity, Fragment, Layout, Menu
+- Material Design
+  - Floating Action Button, SnackBar, ToolBar, Theme
+- Java et annotations
+- Glide
+- Firebase
+
+## Mardi
+- Java et cryptographie
+- Google Play Services : Géoloc/Maps
+- GeoFire
+
+## Mercredi
+- Google Play Services : Nearby et Vision
+- A vous de voir
+]
+---
+
 class: center, middle, inverse
 # Android Marshmallow
 ---
